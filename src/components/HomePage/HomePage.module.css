@@ -1,0 +1,444 @@
+.root {
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  overflow-y: auto;
+}
+.homePage {
+  position: absolute;
+  left: 1px;
+  top: 91px;
+  width: 1284px;
+  height: 3267px;
+  background-color: #fff;
+}
+.yIFU {
+  color: #33250e;
+  font-size: 40px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 577px;
+  top: 185px;
+  width: 132px;
+  height: 42px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.signUp {
+  position: absolute;
+  left: 1183px;
+  top: 129px;
+  width: 67px;
+  height: 19px;
+  background-image:/* webpackIgnore: true */ url('assets/signUp.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logIn {
+  position: absolute;
+  left: 1107px;
+  top: 130px;
+  width: 56px;
+  height: 18px;
+  background-image:/* webpackIgnore: true */ url('assets/logIn.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.women {
+  position: absolute;
+  left: 83px;
+  top: 270px;
+  width: 201px;
+  height: 65px;
+  background-image:/* webpackIgnore: true */ url('assets/women.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.men {
+  position: absolute;
+  left: 303px;
+  top: 270px;
+  width: 201px;
+  height: 65px;
+  background-image:/* webpackIgnore: true */ url('assets/men.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.kids {
+  position: absolute;
+  left: 523px;
+  top: 270px;
+  width: 204px;
+  height: 65px;
+  background-image:/* webpackIgnore: true */ url('assets/kids.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home {
+  position: absolute;
+  left: 746px;
+  top: 270px;
+  width: 205px;
+  height: 65px;
+  background-image:/* webpackIgnore: true */ url('assets/home.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.accessories {
+  position: absolute;
+  left: 970px;
+  top: 270px;
+  width: 234px;
+  height: 65px;
+  background-image:/* webpackIgnore: true */ url('assets/accessories.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.searchProducts {
+  color: #59534a;
+  font-size: 20px;
+  font-weight: 100;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 948px;
+  top: 350px;
+  width: 163px;
+  height: 23px;
+  flex-direction: column;
+}
+.line1 {
+  transform-origin: bottom left;
+  position: absolute;
+  left: 924px;
+  top: 378px;
+  width: 326.0015px;
+  max-width: 100%;
+  height: 0;
+  max-height: 100%;
+  border-bottom: solid 1px #59534a;
+  margin-bottom: -1px;
+  transform: matrix(1, -0.0031, 0.0031, 1, 0, 0);
+}
+.ellipse1 {
+  position: absolute;
+  left: 925px;
+  top: 354px;
+  width: 15px;
+  height: 15px;
+  overflow: visible;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+}
+.line2 {
+  transform-origin: bottom left;
+  position: absolute;
+  left: 937px;
+  top: 366px;
+  width: 5.6569px;
+  max-width: 100%;
+  height: 0;
+  max-height: 100%;
+  border-bottom: solid 1px #59534a;
+  margin-bottom: -1px;
+  transform: matrix(0.7071, 0.7071, -0.7071, 0.7071, 0, 0);
+}
+.featuredBase {
+  position: absolute;
+  left: 1px;
+  top: 394px;
+  width: 1284px;
+  height: 537px;
+  background-color: #ebe3d9;
+}
+.trendsThisSeason {
+  position: absolute;
+  left: 895px;
+  top: 517px;
+  width: 370px;
+  height: 414px;
+  background-image:/* webpackIgnore: true */ url('assets/trendsThisSeason.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.furBoots {
+  position: absolute;
+  left: 633px;
+  top: 394px;
+  width: 262px;
+  height: 330px;
+  background-image:/* webpackIgnore: true */ url('assets/furBoots.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nikeSlippers {
+  position: absolute;
+  left: 633px;
+  top: 724px;
+  width: 262px;
+  height: 207px;
+  background-image:/* webpackIgnore: true */ url('assets/nikeSlippers.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.girlOutfit1 {
+  position: absolute;
+  left: 1px;
+  top: 394px;
+  width: 302px;
+  height: 537px;
+  background-image:/* webpackIgnore: true */ url('assets/girlOutfit1.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.girlOutfit2 {
+  position: absolute;
+  left: 303px;
+  top: 394px;
+  width: 330px;
+  height: 537px;
+  background-image:/* webpackIgnore: true */ url('assets/girlOutfit2.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bar {
+  position: absolute;
+  left: 1px;
+  top: 946px;
+  width: 1284px;
+  height: 111px;
+  background-color: #e0ded2;
+}
+.shopNow {
+  position: absolute;
+  left: 994px;
+  top: 969px;
+  width: 234px;
+  height: 65px;
+  background-image:/* webpackIgnore: true */ url('assets/shopNow.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.donTMissOutOnHolidayDeals {
+  position: absolute;
+  left: 33px;
+  top: 969px;
+  width: 908px;
+  height: 68.5px;
+  background-image:/* webpackIgnore: true */ url('assets/donTMissOutOnHolidayDeals.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rectangle1 {
+  position: absolute;
+  left: 1px;
+  top: 1073px;
+  width: 642px;
+  height: 642px;
+  background-color: #ebe3d9;
+}
+.shopByProduct {
+  position: absolute;
+  left: 152px;
+  top: 1301px;
+  width: 335.5px;
+  height: 186px;
+  background-image:/* webpackIgnore: true */ url('assets/shopByProduct.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.whiteCoat {
+  position: absolute;
+  left: 643px;
+  top: 1073px;
+  width: 642px;
+  height: 642px;
+  background-image:/* webpackIgnore: true */ url('assets/whiteCoat.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rectangle4 {
+  position: absolute;
+  left: 643px;
+  top: 1073px;
+  width: 642px;
+  height: 642px;
+  background-color: #d6d0c773;
+}
+.outerwear {
+  position: absolute;
+  left: 838px;
+  top: 1381px;
+  width: 251px;
+  height: 26px;
+  background-image:/* webpackIgnore: true */ url('assets/outerwear.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pants {
+  position: absolute;
+  left: 1px;
+  top: 1715px;
+  width: 642px;
+  height: 642px;
+  background-image:/* webpackIgnore: true */ url('assets/pants.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rectangle5 {
+  position: absolute;
+  left: -1px;
+  top: 1715px;
+  width: 642px;
+  height: 642px;
+  background-color: #d6d0c773;
+}
+.bottoms {
+  position: absolute;
+  left: 223px;
+  top: 2021px;
+  width: 194px;
+  height: 30px;
+  background-image:/* webpackIgnore: true */ url('assets/bottoms.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bags {
+  position: absolute;
+  left: 643px;
+  top: 1715px;
+  width: 642px;
+  height: 642px;
+  background-image:/* webpackIgnore: true */ url('assets/bags.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rectangle6 {
+  position: absolute;
+  left: 643px;
+  top: 1715px;
+  width: 642px;
+  height: 642px;
+  background-color: #d6d0c773;
+}
+.bags2 {
+  position: absolute;
+  left: 908px;
+  top: 2020px;
+  width: 111px;
+  height: 31px;
+  background-image:/* webpackIgnore: true */ url('assets/bags2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bar2 {
+  position: absolute;
+  left: 1px;
+  top: 2373px;
+  width: 1284px;
+  height: 111px;
+  background-color: #e0ded2;
+}
+.seeWhatOthersAreSharing {
+  position: absolute;
+  left: 231px;
+  top: 2399px;
+  width: 824px;
+  height: 59px;
+  background-image:/* webpackIgnore: true */ url('assets/seeWhatOthersAreSharing.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.user1 {
+  position: absolute;
+  left: -1px;
+  top: 2500px;
+  width: 429px;
+  height: 429px;
+  background-image:/* webpackIgnore: true */ url('assets/user1.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.user2 {
+  position: absolute;
+  left: 428px;
+  top: 2500px;
+  width: 429px;
+  height: 429px;
+  background-image:/* webpackIgnore: true */ url('assets/user2.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.user3 {
+  position: absolute;
+  left: 857px;
+  top: 2500px;
+  width: 428px;
+  height: 429px;
+  background-image:/* webpackIgnore: true */ url('assets/user3.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.user4 {
+  position: absolute;
+  left: 1px;
+  top: 2931px;
+  width: 427px;
+  height: 428px;
+  background-image:/* webpackIgnore: true */ url('assets/user4.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.user5 {
+  position: absolute;
+  left: 428px;
+  top: 2930px;
+  width: 428px;
+  height: 429px;
+  background-image:/* webpackIgnore: true */ url('assets/user5.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.user6 {
+  position: absolute;
+  left: 857px;
+  top: 2929px;
+  width: 429px;
+  height: 430px;
+  background-image:/* webpackIgnore: true */ url('assets/user6.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
